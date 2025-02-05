@@ -1,0 +1,176 @@
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  text-align: center;
+  width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+}
+
+/* Logo */
+.logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Upload Box */
+.upload-box {
+  padding: 20px;
+  border: 2px dashed rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.upload-box:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: white;
+}
+
+/* Instructions */
+.instructions {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+/* Upload Button */
+.upload-label {
+  display: inline-block;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #fff, #bbb);
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.upload-label:hover {
+  background: linear-gradient(135deg, #ccc, #888);
+  transform: scale(1.05);
+}
+
+.file-input {
+  display: none;
+}
+
+/* Selected File Preview */
+.file-preview {
+  margin-top: 15px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+/* Chart Container */
+.chart-container {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.chart-container h3 {
+  margin-bottom: 10px;
+}
+
+/* Transactions Container */
+.transactions-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.transactions-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transactions-container li {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+/* Financial Insights Container */
+.insights-container {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.insights-container h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.insight-section {
+  margin-bottom: 15px;
+}
+
+.insight-section h4 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 5px;
+}
+
+.insight-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.insight-section li {
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+/* Pie Chart Container */
+.pie-container {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.pie-container h3 {
+  margin-bottom: 10px;
+}
+
